@@ -1,0 +1,59 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void balanceChecker() {
+		
+		Validator validator = new Validator();
+		assertEquals("Balance must be greater than 0.", false, validator.balanceCheck(-1000.00f, "Withdrawal", 10000));
+		assertEquals("Balance must be less than 99999.99", false, validator.balanceCheck(100000.00f, "Deposit", 10000));
+		assertEquals("Balance is valid", true, validator.balanceCheck(0.00f, "Withdrawal", 10000));
+		float max = 99999.99f;
+		assertEquals(max + " is a valid balance", true, validator.balanceCheck(max, "Deposit", 00005));
+		
+	}
+	
+	@Test
+	public void withdrawalChecker() {
+		Validator validator = new Validator();
+		
+		//Type Checker
+		assertEquals("Incorrect typing.", "Fatal", validator.withdrawal(1000.00f, 'F', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Student plan", "Pass", validator.withdrawal(1000.00f, 'S', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Nonstudent Plan.", "Pass", validator.withdrawal(1000.00f, 'N', 5.00f, 10000, "Withdrawal" ));
+		
+		//Balance checks.
+		assertEquals("Negative balance.", "Fail", validator.withdrawal(1000.00f, 'S', 1005.00f, 10000, "Withdrawal"));
+		assertEquals("Balance exceeds max.", "Fail", validator.withdrawal(1100000.00f, 'S', 1.00f, 10000, "Withdrawal"));
+		assertEquals("Balance valid.", "Pass", validator.withdrawal(1000.00f, 'S', 10.00f, 10000, "Withdrawal"));
+		
+		//Transaction fee Tests.
+		assertEquals("Transaction for student sends balance under.", "Fail", validator.withdrawal(1000.00f, 'S', 999.96f, 10000, "Withdrawal"));
+		assertEquals("Transaction for nonstudent sends balance under.", "Fail", validator.withdrawal(1000.00f, 'N', 999.91f, 10000, "Withdrawal"));
+		
+	}
+	
+	@Test
+	public void depositChecker() {
+		Validator validator = new Validator();
+		
+		//Type Checker
+		assertEquals("Incorrect typing.", "Fatal", validator.deposit(1000.00f, 'F', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Student plan", "Pass", validator.deposit(1000.00f, 'S', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Nonstudent Plan.", "Pass", validator.deposit(1000.00f, 'N', 5.00f, 10000, "Withdrawal" ));
+		
+		//Balance checks.
+		assertEquals("Negative balance.", "Fail", validator.deposit(-2000.00f, 'S', 1005.00f, 10000, "Withdrawal"));
+		assertEquals("Balance exceeds max.", "Fail", validator.deposit(1000.00f, 'S', 99999.90f, 10000, "Withdrawal"));
+		assertEquals("Balance valid.", "Pass", validator.deposit(1000.00f, 'S', 10.00f, 10000, "Withdrawal"));
+		
+		//Transaction fee Tests.
+		assertEquals("Transaction for student sends balance over.", "Fail", validator.deposit(99000.00f, 'S', 999.96f, 10000, "Withdrawal"));
+		assertEquals("Transaction for nonstudent sends balance over.", "Fail", validator.deposit(99000.00f, 'N', 999.91f, 10000, "Withdrawal"));
+	}
+
+}

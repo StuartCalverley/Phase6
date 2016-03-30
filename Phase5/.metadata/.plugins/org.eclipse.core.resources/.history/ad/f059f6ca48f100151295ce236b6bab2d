@@ -1,0 +1,26 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void balanceChecker() {
+		
+		Validator validator = new Validator();
+		assertEquals("Balance must be greater than 0.", false, validator.balanceCheck(-1000, "Withdrawal", 10000));
+		assertEquals("Balance must be less than 99999.99", false, validator.balanceCheck(100000, "Deposit", 10000));
+		assertEquals("Balance is valid", true, validator.balanceCheck(0, "Withdrawal", 10000));
+		float max = 99999.99f;
+		assertEquals(max + " is a valid balance", true, validator.balanceCheck(max, "Deposit", 00005));
+		
+	}
+	
+	@Test
+	public void withdrawalChecker() {
+		Validator validator = new Validator();
+		assertEquals("Incorrect typing.", "Fail", validator.withdrawal((float)1000.00, 'F', (float)5.00f, 10000, "Withdrawal" ));
+	}
+
+}

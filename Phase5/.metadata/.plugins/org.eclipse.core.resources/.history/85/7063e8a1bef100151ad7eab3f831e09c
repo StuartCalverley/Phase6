@@ -1,0 +1,137 @@
+import static org.junit.Assert.*;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void balanceChecker() {
+		
+		Validator validator = new Validator();
+		assertEquals("Balance must be greater than 0.", false, validator.balanceCheck(-1000.00f, "Withdrawal", 10000));
+		assertEquals("Balance must be less than 99999.99", false, validator.balanceCheck(100000.00f, "Deposit", 10000));
+		assertEquals("Balance is valid", true, validator.balanceCheck(0.00f, "Withdrawal", 10000));
+		float max = 99999.99f;
+		assertEquals(max + " is a valid balance", true, validator.balanceCheck(max, "Deposit", 00005));
+		
+	}
+	
+	@Test
+	public void withdrawalChecker() {
+		Validator validator = new Validator();
+		
+		//Type Checker
+		assertEquals("Incorrect typing.", "Fatal", validator.withdrawal(1000.00f, 'F', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Student plan", "Pass", validator.withdrawal(1000.00f, 'S', 5.00f, 10000, "Withdrawal" ));
+		assertEquals("Nonstudent Plan.", "Pass", validator.withdrawal(1000.00f, 'N', 5.00f, 10000, "Withdrawal" ));
+		
+		//Balance checks.
+		assertEquals("Negative balance.", "Fail", validator.withdrawal(1000.00f, 'S', 1005.00f, 10000, "Withdrawal"));
+		assertEquals("Balance exceeds max.", "Fail", validator.withdrawal(1100000.00f, 'S', 1.00f, 10000, "Withdrawal"));
+		assertEquals("Balance valid.", "Pass", validator.withdrawal(1000.00f, 'S', 10.00f, 10000, "Withdrawal"));
+		
+		//Transaction fee Tests.
+		assertEquals("Transaction for student sends balance under.", "Fail", validator.withdrawal(1000.00f, 'S', 999.96f, 10000, "Withdrawal"));
+		assertEquals("Transaction for nonstudent sends balance under.", "Fail", validator.withdrawal(1000.00f, 'N', 999.91f, 10000, "Withdrawal"));
+		
+	}
+	
+	@Test
+	public void depositChecker() {
+		Validator validator = new Validator();
+		
+		//Type Checker
+		assertEquals("Incorrect typing.", "Fatal", validator.deposit(1000.00f, 'F', 5.00f, 10000, "Deposit" ));
+		assertEquals("Student plan", "Pass", validator.deposit(1000.00f, 'S', 5.00f, 10000, "Deposit" ));
+		assertEquals("Nonstudent Plan.", "Pass", validator.deposit(1000.00f, 'N', 5.00f, 10000, "Deposit" ));
+		
+		//Balance checks.
+		assertEquals("Negative balance.", "Fail", validator.deposit(-2000.00f, 'S', 1005.00f, 10000, "Deposit"));
+		assertEquals("Balance exceeds max.", "Fail", validator.deposit(1000.00f, 'S', 99999.90f, 10000, "Deposit"));
+		assertEquals("Balance valid.", "Pass", validator.deposit(1000.00f, 'S', 10.00f, 10000, "Deposit"));
+		
+		//Transaction fee Tests.
+		assertEquals("Transaction for student sends balance over.", "Fail", validator.deposit(99000.00f, 'S', 999.96f, 10000, "Deposit"));
+		assertEquals("Transaction for nonstudent sends balance over.", "Fail", validator.deposit(99000.00f, 'N', 999.91f, 10000, "Deposit"));
+	}
+	
+	@Test
+	public void paybillChecker(){
+		Validator validator = new Validator();
+		
+		//Company Tests
+		assertEquals("Incorrect company.", "Fatal", validator.paybill(1000.00f, 'S', 100.00f, 10000, "EF"));
+		assertEquals("Correct company.", "Pass", validator.paybill(1000.00f, 'S', 100.00f, 10000, "EC"));
+		
+		//Balance Tests
+		assertEquals("Invalid funds.", "Fail", validator.paybill(1000.00f, 'S', 1005.00f, 10000, "EC"));
+		assertEquals("Valid funds.", "Pass", validator.paybill(1000.00f, 'S', 100.00f, 10000, "TV"));
+	}
+	
+	@Test
+	public void createChecker() {
+		Validator validator = new Validator();
+		
+		Map<Integer, BankAccount> accounts = new HashMap<Integer, BankAccount>();
+		accounts.put(10000, new BankAccount(10000, "Jake", true, 100.00f, 'N', 5));
+		
+		//Account Test
+		assertEquals("Account number in use.", "Fail", validator.create(accounts, 10000, 200.00f));
+		assertEquals("Account number available.", "Pass", validator.create(accounts, 10001, 200.00f));
+		
+		//Balance Test
+		assertEquals("Account balance invalid.", "Fail", validator.create(accounts, 10001, -200.00f));
+		
+	}
+	
+	@Test
+	public void nameExistChecker(){
+		Validator validator = new Validator();
+		Map<Integer, BankAccount> accounts = new HashMap<Integer, BankAccount>();
+		accounts.put(10000, new BankAccount(10000, "Jake", true, 100.00f, 'N', 5));
+		
+		assertEquals("Name exists.", true, validator.nameExist(accounts, "Jake"));
+		assertEquals("Name does not exist.", false, validator.nameExist(accounts, "Phil"));
+		
+	}
+	
+	
+	@Test
+	public void accNumExistsChecker(){
+		Validator validator = new Validator();
+		Map<Integer, BankAccount> accounts = new HashMap<Integer, BankAccount>();
+		accounts.put(10000, new BankAccount(10000, "Jake", true, 100.00f, 'N', 5));
+		
+		assertEquals("Account number exists.", true, validator.accNumExist(accounts, 10000));
+		assertEquals("Account number does not exist.", false, validator.accNumExist(accounts, 10001));	
+	}
+	
+	@Test
+	public void matchNumNameChecker(){
+		Validator validator = new Validator();
+		Map<Integer, BankAccount> accounts = new HashMap<Integer, BankAccount>();
+		accounts.put(10000, new BankAccount(10000, "Jake", true, 100.00f, 'N', 5));
+		
+		
+		assertEquals("Account name and number match.", true, validator.matchNumName(accounts, 10000, "Jake"));
+		assertEquals("Account name and number do not match.", false, validator.matchNumName(accounts, 10001, "Jake"));
+	}
+	
+	@Test
+	public void verifyUserChecker(){
+		Validator validator = new Validator();
+		Map<Integer, BankAccount> accounts = new HashMap<Integer, BankAccount>();
+		accounts.put(10000, new BankAccount(10000, "Jake", true, 100.00f, 'N', 5));
+		accounts.put(10002, new BankAccount(10002, "Tom", true, 1000.00f, 'S', 2));
+		
+		assertEquals("Account name not found.", "Fail", validator.verifyUser(accounts, 10000, "Phil", "Withdrawal"));
+		assertEquals("Account number not found.", "Fail", validator.verifyUser(accounts, 10001, "Jake", "Withdrawal"));
+		assertEquals("Account name and number do not match.", "Fatal", validator.verifyUser(accounts, 10000, "Tom", "Withdrawal"));
+		
+	}
+
+}

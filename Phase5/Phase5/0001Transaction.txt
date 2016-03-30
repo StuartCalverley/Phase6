@@ -1,0 +1,4 @@
+10 Troy Bartan          00000 00000.00    
+01 Troy Bartan          10000 00020.00    
+04 Troy Bartan          10000 00040.00    
+00 Troy Bartan          00000 00000.00    

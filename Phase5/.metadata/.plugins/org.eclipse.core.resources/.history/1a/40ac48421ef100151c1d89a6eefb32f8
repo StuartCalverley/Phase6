@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void test() {
+		
+		Validator validator = new Validator();
+		assertEquals("Withdrawal caused negative balance on account 10000", true, validator.balanceCheck(-1000, "Withdrawal", 10000));
+		fail("Not yet implemented");
+	}
+
+}

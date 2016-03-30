@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void test() {
+		
+		Validator validator = new Validator();
+		assertEquals("Balance must be greater than 0", true, validator.balanceCheck(-1000, "Withdrawal", 10000));
+		fail("Not yet implemented");
+	}
+
+}

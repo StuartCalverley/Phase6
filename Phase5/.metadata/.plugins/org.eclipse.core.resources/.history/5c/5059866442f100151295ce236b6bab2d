@@ -1,0 +1,20 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void balanceChecker() {
+		
+		Validator validator = new Validator();
+		assertEquals("Balance must be greater than 0.", false, validator.balanceCheck(-1000, "Withdrawal", 10000));
+		assertEquals("Balance must be less than 99999.99", false, validator.balanceCheck(100000, "Deposit", 10000));
+		assertEquals("Balance is valid", true, validator.balanceCheck(0, "Withdrawal", 10000));
+		float max =  (float) 99999.99;
+		max.setPrecision(2);
+		assertEquals("Balance is valid", true, validator.balanceCheck(max, "Deposit", 10000));
+	}
+
+}

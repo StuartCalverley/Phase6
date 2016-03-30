@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ValidatorTest {
+
+	@Test
+	public void test() {
+		
+		Validator validator = new Validator();
+		assertEquals();
+		fail("Not yet implemented");
+	}
+
+}
