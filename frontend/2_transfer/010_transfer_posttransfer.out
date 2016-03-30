@@ -1,0 +1,22 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+transfer: Valid command.
+Brian Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 22222 selected for origin transfer.
+What is the destination account number
+Account number 44444 set as destination account number.
+What is the amount to transfer from accounts 22222 to 44444?
+Insufficient funds to transfer $110.00.
+transfer: Valid command.
+Brian Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 22222 selected for origin transfer.
+What is the destination account number
+Account number 44444 set as destination account number.
+What is the amount to transfer from accounts 22222 to 44444?
+$95.00 transferred from accounts 22222 to 44444.
+logout: Valid command.
+Logout Sucessfully.

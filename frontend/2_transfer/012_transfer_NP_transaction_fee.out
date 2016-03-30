@@ -1,0 +1,23 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+transfer: Valid command.
+Brian Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 22222 selected for origin transfer.
+What is the destination account number
+Account number 00001 set as destination account number.
+What is the amount to transfer from accounts 22222 to 00001?
+Account balance is exactly $100.00. Unable to process $0.10 Non Student account transaction fees.
+Insufficient funds of 5 cents to transfer $100.00 due to transaction fee.
+transfer: Valid command.
+Brian Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 22222 selected for origin transfer.
+What is the destination account number
+Account number 00001 set as destination account number.
+What is the amount to transfer from accounts 22222 to 00001?
+$99.80 transferred from accounts 22222 to 00001.
+logout: Valid command.
+Logout Sucessfully.

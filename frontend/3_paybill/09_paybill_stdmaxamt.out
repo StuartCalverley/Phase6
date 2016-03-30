@@ -1,0 +1,14 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as John Doe.
+paybill: Valid command.
+John Doe set as the account holder of the bill payment.
+What is the account number from which you wish to pay a bill from?
+Valid account number 00001.
+What company would you like to pay the bill to?
+Bright Light Electric Comapny (EC)selected. What is the amount of the bill payment?
+What is the amount to pay?
+Payment cannot exceed $2000.00 in standard mode. Bill payment failed.
+logout: Valid command.
+Logout Sucessfully.

@@ -1,0 +1,14 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as John Doe.
+withdrawal: Valid command.
+John Doe set as withdrawal account holder.
+What is the account number you wish to withdraw from?
+Valid account number 00001.
+What is the amount to withdraw?
+Valid amount $300.00.
+$0.05 deducted for Student Account transaction fees.
+$299.95 successfully withdrawn.
+logout: Valid command.
+Logout Sucessfully.

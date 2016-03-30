@@ -1,0 +1,11 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+withdrawal: Valid command.
+Brian Doe set as withdrawal account holder.
+What is the account number you wish to withdraw from?
+Invalid amount. Withdrawal failed.
+Invalid command.
+logout: Valid command.
+Logout Sucessfully.

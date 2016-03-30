@@ -1,0 +1,15 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+withdrawal: Valid command.
+Brian Doe set as withdrawal account holder.
+What is the account number you wish to withdraw from?
+Valid account number 22222.
+What is the amount to withdraw?
+Valid amount $100.00.
+$0.10 deducted for Non - Student Account transaction fees.
+$99.90 successfully withdrawn.
+Invalid command.
+logout: Valid command.
+Logout Sucessfully.

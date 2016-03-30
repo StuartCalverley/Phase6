@@ -1,0 +1,15 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+deposit: Valid command.
+Brian Doe set as the account holder of the deposit.
+What is the account number which you wish to deposit to?
+22222 set as the account number of the deposit.
+What is the amount to be deposited?
+Valid amount $300.00.
+$0.10 deducted for Non - Student Account transaction fees.
+$299.90 successfully deposited.
+Deposited amount usable next day only.
+logout: Valid command.
+Logout Sucessfully.

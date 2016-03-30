@@ -1,0 +1,14 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as John Doe.
+transfer: Valid command.
+What is the account holder's name for origin transfer?
+John Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 00001 selected for origin transfer.
+What is the destination account number
+Account number 22222 set as destination account number.
+What is the amount to transfer from accounts 00001 to 22222?
+logout: Valid command.
+Logout Sucessfully.

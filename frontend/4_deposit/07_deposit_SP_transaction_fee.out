@@ -1,0 +1,16 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as general admin mode.
+deposit: Valid command.
+What is the account holder's name which you wish to deposit to?
+John Doe set as the account holder of the deposit.
+What is the account number which you wish to deposit to?
+00001 set as the account number of the deposit.
+What is the amount to be deposited?
+Valid amount $300.00.
+$0.05 deducted for Student Account transaction fees.
+$299.95 successfully deposited.
+Deposited amount usable next day only.
+logout: Valid command.
+Logout Sucessfully.

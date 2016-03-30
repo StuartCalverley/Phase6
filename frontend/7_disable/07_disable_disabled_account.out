@@ -1,0 +1,11 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as Jane Doe.
+disable: Valid command. Admin access granted.
+Enter the bank account holder's name to be disabled.
+Accepted bank account holder's name: John Doe.
+Enter bank account number to be disabled.
+Bank account number disabled: John Doe (Account 88888 is a disabled account).
+logout: Valid command.
+Logout Sucessfully.
