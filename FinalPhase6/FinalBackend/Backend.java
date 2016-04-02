@@ -450,6 +450,7 @@ public class Backend {
 				case 1: // withdrawal
 					testTransactionFile = 1;
 					withdrawal(accountNum, accounts.get(accountNum), balance);
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 2: // transfer
 					testTransactionFile = 2;
@@ -462,14 +463,17 @@ public class Backend {
 					// Creates a tmp second account for transfter
 					transfer(accountNum, accountNum2, accounts.get(accountNum),
 							accounts.get(accountNum2), balance);
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 3: // paybill
 					testTransactionFile = 3;
 					paybill(accountNum, accounts.get(accountNum), balance, misc);
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 4: // deposit
 					testTransactionFile = 4;
 					deposit(accountNum, accounts.get(accountNum), balance);
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 5: // create
 					testTransactionFile = 5;
@@ -482,14 +486,17 @@ public class Backend {
 				case 7: // disable
 					testTransactionFile = 7;
 					accChange(accountNum, accountName, "disable");
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 8: // changeplan
 					testTransactionFile = 8;
 					accChange(accountNum, accountName, "change plan");
+					accounts.get(accountNum).addTransactions();
 					break;
 				case 9: // enable
 					testTransactionFile = 9;
 					accChange(accountNum, accountName, "enable");
+					accounts.get(accountNum).addTransactions();
 					break;
 				default:
 					testTransactionFile = 11;
