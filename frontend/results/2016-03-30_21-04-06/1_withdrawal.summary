@@ -1,0 +1,25 @@
+SUMMARY OF 1_withdrawal FOR 2016-03-30_21-04-06
+TEST 01_withdrawal_prompt.out PASSED.
+TEST 01_withdrawal_prompt.trans PASSED.
+TEST 02_withdrawal_acc_name_validation.out PASSED.
+TEST 02_withdrawal_acc_name_validation.trans PASSED.
+TEST 03_withdrawal_acc_num.out PASSED.
+TEST 03_withdrawal_acc_num.trans PASSED.
+TEST 04_withdrawal_namenum.out PASSED.
+TEST 04_withdrawal_namenum.trans PASSED.
+TEST 05_withdrawal_money.out PASSED.
+TEST 05_withdrawal_money.trans PASSED.
+TEST 06_withdrawal_formatvalidation.out PASSED.
+TEST 06_withdrawal_formatvalidation.trans PASSED.
+TEST 07_withdrawal_stdmode.out PASSED.
+TEST 07_withdrawal_stdmode.trans PASSED.
+TEST 08_withdrawal_adminmode.out PASSED.
+TEST 08_withdrawal_adminmode.trans PASSED.
+TEST 09_withdrawal_accbalancevalid.out PASSED.
+TEST 09_withdrawal_accbalancevalid.trans PASSED.
+TEST 010_withdrawal_divby5.out PASSED.
+TEST 010_withdrawal_divby5.trans PASSED.
+TEST 011_withdrawal_SP_transaction_fee.out PASSED.
+TEST 011_withdrawal_SP_transaction_fee.trans PASSED.
+TEST 012_withdrawal_NP_transaction_fee.out PASSED.
+TEST 012_withdrawal_NP_transaction_fee.trans PASSED.

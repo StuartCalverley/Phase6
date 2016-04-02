@@ -1,0 +1,25 @@
+SUMMARY OF 3_paybill FOR 2016-03-30_21-04-06
+TEST 01_paybill_accname.out PASSED.
+TEST 01_paybill_accname.trans PASSED.
+TEST 02_paybill_accnum.out PASSED.
+TEST 02_paybill_accnum.trans PASSED.
+TEST 03_paybill_accnameandnum.out PASSED.
+TEST 03_paybill_accnameandnum.trans PASSED.
+TEST 04_paybill_companyname.out PASSED.
+TEST 04_paybill_companyname.trans PASSED.
+TEST 05_paybill_companyamt.out PASSED.
+TEST 05_paybill_companyamt.trans PASSED.
+TEST 06_paybill_amtformat.out PASSED.
+TEST 06_paybill_amtformat.trans PASSED.
+TEST 07_paybill_validaccnum.out PASSED.
+TEST 07_paybill_validaccnum.trans PASSED.
+TEST 08_paybill_validcompany.out PASSED.
+TEST 08_paybill_validcompany.trans PASSED.
+TEST 09_paybill_stdmaxamt.out PASSED.
+TEST 09_paybill_stdmaxamt.trans PASSED.
+TEST 010_paybill_post.out PASSED.
+TEST 010_paybill_post.trans PASSED.
+TEST 011_paybill_SP_transaction_fee.out PASSED.
+TEST 011_paybill_SP_transaction_fee.trans PASSED.
+TEST 012_paybill_NP_transacation_fee.out PASSED.
+TEST 012_paybill_NP_transacation_fee.trans PASSED.

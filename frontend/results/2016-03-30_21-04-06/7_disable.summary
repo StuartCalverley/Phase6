@@ -1,0 +1,17 @@
+SUMMARY OF 7_disable FOR 2016-03-30_21-04-06
+TEST 01_disable_admin_mode.out PASSED.
+TEST 01_disable_admin_mode.trans PASSED.
+TEST 02_disable_standard_mode.out PASSED.
+TEST 02_disable_standard_mode.trans PASSED.
+TEST 03_disable_status_changed.out PASSED.
+TEST 03_disable_status_changed.trans PASSED.
+TEST 04_disable_invalid_name.out PASSED.
+TEST 04_disable_invalid_name.trans PASSED.
+TEST 05_disable_invalid_number.out PASSED.
+TEST 05_disable_invalid_number.trans PASSED.
+TEST 06_disable_further_trans.out PASSED.
+TEST 06_disable_further_trans.trans PASSED.
+TEST 07_disable_disabled_account.out PASSED.
+TEST 07_disable_disabled_account.trans PASSED.
+TEST 08_disable_recent_disabled_account.out PASSED.
+TEST 08_disable_recent_disabled_account.trans PASSED.

@@ -1,0 +1,12 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as Jane Doe.
+delete: Valid command. Admin access granted.
+Enter the bank account holder's name to be deleted.
+Accepted bank account holder's name: John Doe.
+Enter bank account number to be deleted.
+Accepted bank account number to be deleted: 88888.
+Account 88888 from John Doe has been deleted. Information saved to bank account transaction file.
+logout: Valid command.
+Logout Sucessfully.

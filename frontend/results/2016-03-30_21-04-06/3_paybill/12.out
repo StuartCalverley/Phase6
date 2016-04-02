@@ -1,0 +1,15 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+paybill: Valid command.
+Brian Doe set as the account holder of the bill payment.
+What is the account number from which you wish to pay a bill from?
+Valid account number 22222.
+What company would you like to pay the bill to?
+Bright Light Electric Comapny (EC)selected. What is the amount of the bill payment?
+What is the amount to pay?
+Account balance is exactly $100.00. Unable to process $0.10 Non Student account transaction fees.
+Bill payment failed.
+logout: Valid command.
+Logout Sucessfully.

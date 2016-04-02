@@ -1,0 +1,27 @@
+SUMMARY OF 2_transfer FOR 2016-03-30_21-04-06
+TEST 01_transfer_prompt.out PASSED.
+TEST 01_transfer_prompt.trans PASSED.
+TEST 02_transfer_originaccnum.out PASSED.
+TEST 02_transfer_originaccnum.trans PASSED.
+TEST 03_transfer_originaccnamenum.out PASSED.
+TEST 03_transfer_originaccnamenum.trans PASSED.
+TEST 04_transfer_destaccnum.out PASSED.
+TEST 04_transfer_destaccnum.trans PASSED.
+TEST 05_transfer_destamt.out PASSED.
+TEST 05_transfer_destamt.trans PASSED.
+TEST 06_transfer_destamtformat.out PASSED.
+TEST 06_transfer_destamtformat.trans PASSED.
+TEST 07_transfer_destvalidaccnum.out PASSED.
+TEST 07_transfer_destvalidaccnum.trans PASSED.
+TEST 08_transfer_originvalidaccnum.out PASSED.
+TEST 08_transfer_originvalidaccnum.trans PASSED.
+TEST 09_transfer_stdmaxtransfer.out PASSED.
+TEST 09_transfer_stdmaxtransfer.trans PASSED.
+TEST 010_transfer_posttransfer.out PASSED.
+TEST 010_transfer_posttransfer.trans PASSED.
+TEST 011_transfer_SP_transaction_fee.out PASSED.
+TEST 011_transfer_SP_transaction_fee.trans PASSED.
+TEST 012_transfer_NP_transaction_fee.out PASSED.
+TEST 012_transfer_NP_transaction_fee.trans PASSED.
+TEST 013_transfer_disabled.out PASSED.
+TEST 013_transfer_disabled.trans PASSED.

@@ -1,0 +1,5 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as John Doe.
+login: Invalid command. User John Doe must be logged out before attempting to login again.

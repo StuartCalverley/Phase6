@@ -1,0 +1,22 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as Jane Doe.
+withdrawal: Valid command.
+What is the account holder's name for withdrawal?
+transfer: Valid command.
+What is the account holder's name for origin transfer?
+paybill: Valid command.
+What is the account holder's name for bill payment?
+deposit: Valid command.
+What is the account holder's name which you wish to deposit to?
+create: Valid command. Admin access granted.
+Enter the new bank account holder's name to be created.
+delete: Valid command. Admin access granted.
+Enter the bank account holder's name to be deleted.
+disable: Valid command. Admin access granted.
+Enter the bank account holder's name to be disabled.
+changeplan: Valid command. Admin access granted.
+Enter the bank account holder's name to change the transaction payment plan.
+logout: Valid command.
+Logout Sucessfully.

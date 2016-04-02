@@ -1,0 +1,18 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as John Doe.
+transfer: Valid command.
+John Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Invalid account number for origin of transfer.
+paybill: Valid command.
+John Doe set as the account holder of the bill payment.
+What is the account number from which you wish to pay a bill from?
+Invalid account number or Name and account number do not match. Bill payment rejected.
+deposit: Valid command.
+John Doe set as the account holder of the deposit.
+What is the account number which you wish to deposit to?
+Invalid account number or Name and account number do not match. Deposit failed.
+logout: Valid command.
+Logout Sucessfully.

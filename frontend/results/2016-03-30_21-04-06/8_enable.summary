@@ -1,0 +1,13 @@
+SUMMARY OF 8_enable FOR 2016-03-30_21-04-06
+TEST 01_enable_admin_mode.out PASSED.
+TEST 01_enable_admin_mode.trans PASSED.
+TEST 02_enable_standard_mode.out PASSED.
+TEST 02_enable_standard_mode.trans PASSED.
+TEST 03_enable_status_changed.out PASSED.
+TEST 03_enable_status_changed.trans PASSED.
+TEST 04_enable_invalid_name.out PASSED.
+TEST 04_enable_invalid_name.trans PASSED.
+TEST 05_enable_invalid_number.out PASSED.
+TEST 05_enable_invalid_number.trans PASSED.
+TEST 06_enable_enabled_account.out PASSED.
+TEST 06_enable_enabled_account.trans PASSED.

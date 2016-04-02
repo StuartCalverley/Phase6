@@ -1,0 +1,36 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as Jane Doe.
+disable: Valid command. Admin access granted.
+Enter the bank account holder's name to be disabled.
+Accepted bank account holder's name: John Doe.
+Enter bank account number to be disabled.
+Accepted bank account number: 00001.
+Account 00001 from John Doe has been disabled. Information saved to bank account transaction file.
+transfer: Valid command.
+What is the account holder's name for origin transfer?
+John Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 00001 selected for origin transfer.
+What is the destination account number
+paybill: Valid command.
+What is the account holder's name for bill payment?
+John Doe set as the account holder of the bill payment.
+What is the account number from which you wish to pay a bill from?
+Valid account number 00001.
+What company would you like to pay the bill to?
+deposit: Valid command.
+What is the account holder's name which you wish to deposit to?
+John Doe set as the account holder of the deposit.
+What is the account number which you wish to deposit to?
+00001 set as the account number of the deposit.
+What is the amount to be deposited?
+changeplan: Valid command. Admin access granted.
+Enter the bank account holder's name to change the transaction payment plan.
+Accepted bank account holder's name: John Doe.
+Enter bank account number to change the transaction payment plan.
+Accepted bank account number: 00001.
+Account 00001 from John Doe has changed from student (SP) to non - student (NP). Information saved to bank account transaction file.
+logout: Valid command.
+Logout Sucessfully.

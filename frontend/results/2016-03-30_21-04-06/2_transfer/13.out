@@ -1,0 +1,14 @@
+Do you wish to login as a standard user or admin?
+Logged in as a standard user.
+What is the account holder's name?
+logged in as Brian Doe.
+transfer: Valid command.
+Brian Doe selected as account holder name for origin transfer.
+What is the account number for origin transfer?
+Account number 22222 selected for origin transfer.
+What is the destination account number
+Account number 88888 set as destination account number.
+What is the amount to transfer from accounts 22222 to 88888?
+Invalid destination account number, the account has been disabled.
+logout: Valid command.
+Logout Sucessfully.

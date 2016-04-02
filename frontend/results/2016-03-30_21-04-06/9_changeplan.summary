@@ -1,0 +1,13 @@
+SUMMARY OF 9_changeplan FOR 2016-03-30_21-04-06
+TEST 01_changeplan_admin_mode.out PASSED.
+TEST 01_changeplan_admin_mode.trans PASSED.
+TEST 02_changeplan_standard_mode.out PASSED.
+TEST 02_changeplan_standard_mode.trans PASSED.
+TEST 03_changeplan_SP_to_NP.out PASSED.
+TEST 03_changeplan_SP_to_NP.trans PASSED.
+TEST 04_changeplan_NP_to_SP.out PASSED.
+TEST 04_changeplan_NP_to_SP.trans PASSED.
+TEST 05_changeplan_invalid_name.out PASSED.
+TEST 05_changeplan_invalid_name.trans PASSED.
+TEST 06_changeplan_invalid_number.out PASSED.
+TEST 06_changeplan_invalid_number.trans PASSED.

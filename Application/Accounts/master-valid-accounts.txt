@@ -1,0 +1,7 @@
+00001 Jason Runzer         A 00140.80 0885 S
+00002 Jordan Shaw          A 44300.00 0716 S
+00003 Disabled             D 00500.00 0000 N
+00004 One Hundred          A 00100.00 0000 N
+00009 Stuart Cal           A 10000.00 0000 S
+00010 lol                  A 00100.00 0000  
+00000 END_OF_FILE          D 00000.00 0000 N

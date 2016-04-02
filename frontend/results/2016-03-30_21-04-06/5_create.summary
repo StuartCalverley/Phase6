@@ -1,0 +1,19 @@
+SUMMARY OF 5_create FOR 2016-03-30_21-04-06
+TEST 01_create_valid_new_acc_name.out PASSED.
+TEST 01_create_valid_new_acc_name.trans PASSED.
+TEST 02_create_initbal.out PASSED.
+TEST 02_create_initbal.trans PASSED.
+TEST 03_create_record_transaction_file.out PASSED.
+TEST 03_create_record_transaction_file.trans PASSED.
+TEST 04_create_test_admin_mode.out PASSED.
+TEST 04_create_test_admin_mode.trans PASSED.
+TEST 05_create_unique_account_num.out PASSED.
+TEST 05_create_unique_account_num.trans PASSED.
+TEST 06_create_max_acc_bal.out PASSED.
+TEST 06_create_max_acc_bal.trans PASSED.
+TEST 07_create_end_session.out PASSED.
+TEST 07_create_end_session.trans PASSED.
+TEST 08_create_truncate_long_acc_name.out PASSED.
+TEST 08_create_truncate_long_acc_name.trans PASSED.
+TEST 09_create_default_acc_type.out PASSED.
+TEST 09_create_default_acc_type.trans PASSED.

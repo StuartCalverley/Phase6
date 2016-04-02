@@ -1,0 +1,13 @@
+Do you wish to login as a standard user or admin?
+Logged in as an admin user.
+What is the account holder's name?
+logged in as general admin mode.
+create: Valid command. Admin access granted.
+Enter the new bank account holder's name to be created.
+Accepted new bank account name: John Doe Longnameson.
+What is the initial balance of the account?
+Accepted inital balance $3000.00.
+Accepted bank account number to be created: 00003 for John Doe Longnameson.
+Account type: Non-Student Plan.
+logout: Valid command.
+Logout Sucessfully.

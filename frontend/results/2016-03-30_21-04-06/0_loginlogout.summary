@@ -1,0 +1,19 @@
+SUMMARY OF 0_loginlogout FOR 2016-03-30_21-04-06
+TEST 01_loginlogout_std_session.out PASSED.
+TEST 01_loginlogout_std_session.trans PASSED.
+TEST 02_loginlogout_begin_transactions.out PASSED.
+TEST 02_loginlogout_begin_transactions.trans PASSED.
+TEST 03_loginlogout_not_logged_in.out PASSED.
+TEST 03_loginlogout_not_logged_in.trans PASSED.
+TEST 04_loginlogout_subsequent_login.out PASSED.
+TEST 04_loginlogout_subsequent_login.trans PASSED.
+TEST 05_loginlogout_unprivileged.out PASSED.
+TEST 05_loginlogout_unprivileged.out.trans PASSED.
+TEST 06_loginlogout_privileged_transactions.out PASSED.
+TEST 06_loginlogout_privileged_transactions.trans PASSED.
+TEST 07_loginlogout_disabled_account.out PASSED.
+TEST 07_loginlogout_disabled_account.trans PASSED.
+TEST 08_loginlogout_logged_out.out PASSED.
+TEST 08_loginlogout_logged_out.trans PASSED.
+TEST 09_loginlogout_logged_out_transactions.out PASSED.
+TEST 09_loginlogout_logged_out_transactions.trans PASSED.

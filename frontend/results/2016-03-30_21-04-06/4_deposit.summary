@@ -1,0 +1,21 @@
+SUMMARY OF 4_deposit FOR 2016-03-30_21-04-06
+TEST 01_deposit_accholdernameprompt.out PASSED.
+TEST 01_deposit_accholdernameprompt.trans PASSED.
+TEST 02_deposit_accnumprompt.out PASSED.
+TEST 02_deposit_accnumprompt.trans PASSED.
+TEST 03_deposit_acc_name_num_match.out PASSED.
+TEST 03_deposit_acc_name_num_match.trans PASSED.
+TEST 04_deposit_amt.out PASSED.
+TEST 04_deposit_amt.trans PASSED.
+TEST 05_deposit_amtformatvalid.out PASSED.
+TEST 05_deposit_amtformatvalid.trans PASSED.
+TEST 06_deposit_validacc.out PASSED.
+TEST 06_deposit_validacc.trans PASSED.
+TEST 07_deposit_SP_transaction_fee.out PASSED.
+TEST 07_deposit_SP_transaction_fee.trans PASSED.
+TEST 08_deposit_NP_transaction_fee.out PASSED.
+TEST 08_deposit_NP_transaction_fee.trans PASSED.
+TEST 09_deposit_same_day_usage.out PASSED.
+TEST 09_deposit_same_day_usage.trans PASSED.
+TEST 010_deposit_accepted_amt.out PASSED.
+TEST 010_deposit_accepted_amt.trans PASSED.
