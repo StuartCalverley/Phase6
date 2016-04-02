@@ -1,0 +1,10 @@
+10 Jason Runzer         00000 00000.00 S 
+00 Jason Runzer         00000 00000.00 S 
+10 Jason Runzer         00000 00000.00 S 
+00 Jason Runzer         00000 00000.00 S 
+10                      00000 00000.00 A 
+00                      00000 00000.00 A 
+10                      00000 00000.00 A 
+02 Jason Runzer         00001 00100.00 F 
+02 Jordan Shaw          00002 00100.00 T 
+00                      00000 00000.00 A 

@@ -1,0 +1,5 @@
+login
+Admin
+withdrawal
+END_OF_FILE
+logout

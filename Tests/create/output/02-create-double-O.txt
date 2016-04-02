@@ -1,0 +1,10 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the name of the account holder:
+Please enter the initial ammount of the account (XXXX.XX):
+Error: Must enter a double or an integer value.
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

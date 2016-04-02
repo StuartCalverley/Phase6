@@ -1,0 +1,5 @@
+login
+Admin
+deposit
+END_OF_FILE
+logout

@@ -1,0 +1,6 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Please enter your name:
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

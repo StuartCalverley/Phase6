@@ -1,0 +1,10 @@
+Welcome to the Bank of Hard Water. Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:
+ERROR: Please enter login:

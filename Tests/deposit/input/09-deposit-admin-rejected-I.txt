@@ -1,0 +1,7 @@
+login
+Admin
+deposit
+Jason Runzer
+1
+50000.00
+logout

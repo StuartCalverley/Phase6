@@ -1,0 +1,6 @@
+login 
+Admin
+delete
+Jordan Shaw
+234239
+logout

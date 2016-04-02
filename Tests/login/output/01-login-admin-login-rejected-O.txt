@@ -1,0 +1,8 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+ERROR: Please enter a valid command:
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

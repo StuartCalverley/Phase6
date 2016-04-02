@@ -1,0 +1,23 @@
+login
+Standard
+One Hundred
+deposit
+4
+10.05
+transfer
+4
+1
+110.00
+logout
+login
+Admin
+deposit
+One Hundred
+4
+10.00
+transfer
+One Hundred
+4
+1
+120.00
+logout

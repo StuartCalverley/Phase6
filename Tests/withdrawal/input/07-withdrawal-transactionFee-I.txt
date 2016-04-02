@@ -1,0 +1,7 @@
+login
+Standard
+One Hundred
+withdrawal
+4
+100.00
+logout

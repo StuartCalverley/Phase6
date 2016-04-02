@@ -1,0 +1,42 @@
+login
+Standard
+One Hundred
+withdrawal
+4
+105.00
+logout
+login
+Standard
+One Hundred
+withdrawal
+4
+95.00
+logout
+login
+Standard
+Jason Runzer
+withdrawal
+1
+505.00
+logout
+login
+Standard
+Jason Runzer
+withdrawal
+1
+500.00
+logout
+login
+Admin
+withdrawal
+Jordan Shaw
+2
+100005.00
+logout
+login
+Admin
+withdrawal
+Jordan Shaw
+2
+10000.00
+logout

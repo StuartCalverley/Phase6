@@ -1,0 +1,34 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Please enter your name:
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Please enter the account number:
+Please enter the amount to deposit (XXX.XX):
+Successful deposit
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Please enter the account number:
+Please enter a company:
+Please enter the amount to pay (XXXX.XX):
+Error: Insufficient funds
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the account holder name:
+Please enter the account number:
+Please enter the amount to deposit (XXX.XX):
+Successful deposit
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the account holder name:
+Please enter the account number:
+Please enter a company:
+Please enter the amount to pay (XXXX.XX):
+Error: Insufficient funds
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

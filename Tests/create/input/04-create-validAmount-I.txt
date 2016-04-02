@@ -1,0 +1,12 @@
+login
+Admin
+create
+Jason COOL
+100000.00
+create
+Jason COOL
+-0.99
+create
+Jason COOL
+99999.99
+logout

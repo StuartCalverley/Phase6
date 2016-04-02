@@ -1,0 +1,24 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the account holder name:
+Please enter the account number:
+The account has been successfully enabled
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the account holder name:
+Please enter the account number:
+Please enter the number of the account to transfer to:
+Please enter the amount to transfer (XXXX.XX):
+Successful Transfer
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Please enter the account holder name:
+Please enter the account number:
+Please enter the number of the account to transfer to:
+Please enter the amount to transfer (XXXX.XX):
+Successful Transfer
+Options: withdrawal, transfer, paybill, deposit, create, delete, disable, changeplan, logout, enable
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

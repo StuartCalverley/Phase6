@@ -1,0 +1,23 @@
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Please enter your name:
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Please enter the account number:
+Please enter a company:
+Please enter the amount to pay (XXXX.XX):
+Error: Must enter a double or an integer value.
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:
+Please enter Standard or Admin:
+Please enter your name:
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Please enter the account number:
+Please enter a company:
+Please enter the amount to pay (XXXX.XX):
+Error: Amount exceeds account limitations.
+Options: withdrawal, transfer, paybill, deposit, logout
+Please enter a command:
+Welcome to the Bank of Hard Water. Please enter login:

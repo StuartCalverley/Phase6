@@ -1,0 +1,5 @@
+10 One Hundred          00000 00000.00 S 
+00 One Hundred          00000 00000.00 S 
+10 One Hundred          00000 00000.00 S 
+03 One Hundred          00004 00099.90 CQ
+00 One Hundred          00000 00000.00 S 

@@ -1,0 +1,9 @@
+login
+Admin
+create
+New Account
+100.00
+withdrawal
+New Account
+6
+logout

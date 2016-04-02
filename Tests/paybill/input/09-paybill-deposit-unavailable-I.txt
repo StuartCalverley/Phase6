@@ -1,0 +1,23 @@
+login
+Standard
+One Hundred
+deposit
+4
+10.00
+paybill
+4
+CQ
+110.00
+logout
+login
+Admin
+deposit
+One Hundred
+4
+10.00
+paybill
+One Hundred
+4
+CQ
+115.00
+logout
