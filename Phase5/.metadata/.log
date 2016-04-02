@@ -74,3 +74,131 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.core.resources 2 10035 2016-03-28 10:20:59.335
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-04-02 13:07:26.796 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Command-line arguments:  -data /home/janahan/Desktop/Phase6/Phase5 -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:11:19.821
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Integer [in Integer.class [in java.lang [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:11:19.823
+!MESSAGE Timed out while retrieving the attached javadoc for Integer [in Integer.class [in java.lang [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:39:46.429
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for InputStreamReader {key=Ljava/io/InputStreamReader;} [in InputStreamReader.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:995)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:39:46.430
+!MESSAGE Timed out while retrieving the attached javadoc for InputStreamReader {key=Ljava/io/InputStreamReader;} [in InputStreamReader.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:43:06.399
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for System [in System.class [in java.lang [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:121)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:43:06.400
+!MESSAGE Timed out while retrieving the attached javadoc for System [in System.class [in java.lang [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:43:07.463
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:43:07.463
+!MESSAGE Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:43:07.491
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:43:07.491
+!MESSAGE Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:43:07.623
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:43:07.623
+!MESSAGE Timed out while retrieving the attached javadoc for PrintStream [in PrintStream.class [in java.io [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-04-02 13:49:05.811
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Map [in Map.class [in java.util [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2016-04-02 13:49:05.811
+!MESSAGE Timed out while retrieving the attached javadoc for Map [in Map.class [in java.util [in /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar]]] 

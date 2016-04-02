@@ -1,0 +1,27 @@
+SUMMARY OF 2_transfer FOR 2016-04-02_11-43-48
+TEST 01_transfer_prompt.out FAILED.
+TEST 01_transfer_prompt.trans PASSED.
+TEST 02_transfer_originaccnum.out FAILED.
+TEST 02_transfer_originaccnum.trans PASSED.
+TEST 03_transfer_originaccnamenum.out FAILED.
+TEST 03_transfer_originaccnamenum.trans PASSED.
+TEST 04_transfer_destaccnum.out FAILED.
+TEST 04_transfer_destaccnum.trans PASSED.
+TEST 05_transfer_destamt.out FAILED.
+TEST 05_transfer_destamt.trans PASSED.
+TEST 06_transfer_destamtformat.out FAILED.
+TEST 06_transfer_destamtformat.trans PASSED.
+TEST 07_transfer_destvalidaccnum.out FAILED.
+TEST 07_transfer_destvalidaccnum.trans PASSED.
+TEST 08_transfer_originvalidaccnum.out FAILED.
+TEST 08_transfer_originvalidaccnum.trans PASSED.
+TEST 09_transfer_stdmaxtransfer.out FAILED.
+TEST 09_transfer_stdmaxtransfer.trans PASSED.
+TEST 010_transfer_posttransfer.out FAILED.
+TEST 010_transfer_posttransfer.trans PASSED.
+TEST 011_transfer_SP_transaction_fee.out FAILED.
+TEST 011_transfer_SP_transaction_fee.trans PASSED.
+TEST 012_transfer_NP_transaction_fee.out FAILED.
+TEST 012_transfer_NP_transaction_fee.trans PASSED.
+TEST 013_transfer_disabled.out FAILED.
+TEST 013_transfer_disabled.trans PASSED.

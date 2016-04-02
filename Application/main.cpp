@@ -495,8 +495,9 @@ bool transfer(istream& stream) {
     if (standardSession) {
         if (accountPlan == 'N') {
             charge = 0.10;
-        } else
+        } else {
             charge = 0.05;
+        }
     }
     if (transferAmount < 0) {
         cout << "Error - Please enter a postive amount" << endl;
