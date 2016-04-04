@@ -251,7 +251,27 @@ public class Backend {
 			BankAccount account = new BankAccount(accountNum, accountName,
 					true, balance, 'N', 0);
 			accounts.put(accountNum, account);
+		} else if(results.equals("Fail")) {
+			boolean checkExist = true;
+			int accountNew = accountsList.get(accountsList.size() - 1).getNumber();
+			accountNew++;
+			while(checkExist){
+				checkExist = false;
+				for(BankAccount i: accountsList){
+					if(i.getNumber() == accountNew){
+						checkExist = true;
+					}
+				}
+			}
+			BankAccount account = new BankAccount(accountNew, accountName,
+					true, balance, 'N', 0);
+			accounts.put(accountNum, account);
 		}
+		// Makes a List from the Hashmap of accounts
+		accountsList = new ArrayList<BankAccount>(accounts.values());
+		// Sorts the List
+		Collections.sort(accountsList);
+
 		return accounts.get(accountNum).getNumber();
 	}
 
