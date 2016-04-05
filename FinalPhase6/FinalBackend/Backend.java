@@ -427,7 +427,7 @@ public class Backend {
 			// Hold the second user of results
 			String line;
 			while (!(line = br.readLine())
-					.equals("00                      00000 00000.00   ")
+					.equals("00                                       ")
 					&& !(resultsGlobal.equals("Fatal"))) {
 				// TODO: Debugging info, remove
 				//System.out.println(line);
