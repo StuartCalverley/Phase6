@@ -1,0 +1,6 @@
+login
+Admin
+create
+Janahan Math
+5000.00
+logout

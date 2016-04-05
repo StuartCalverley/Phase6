@@ -1,0 +1,6 @@
+login
+Admin
+create
+Albert Fung
+1000.00
+logout

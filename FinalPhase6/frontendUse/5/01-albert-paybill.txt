@@ -1,0 +1,8 @@
+login
+Standard
+Albert Fung
+paybill 
+2
+TV
+50.00
+logout
