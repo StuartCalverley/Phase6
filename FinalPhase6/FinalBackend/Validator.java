@@ -16,15 +16,15 @@ public class Validator {
 	 * @param command
 	 *            The command that the check came from
 	 * @param accNum
-	 *            The account number for the account
+	 *            The account number for the accounts
 	 * @return
 	 */
-	public boolean balanceCheck(float balance, String command, int accNum) {
+	public boolean balanceCheck(float balance, String commands, int accNum) {
 		if (balance < 0) {
-			System.out.println("ERROR: " + command
+			System.out.println("ERROR: " + commands
 					+ " caused negative balance on account " + accNum);
 		} else if (balance > (float) 99999.99f) {
-			System.out.println("ERROR: " + command
+			System.out.println("ERROR: " + commands
 					+ " caused balance over 99999.99 on account " + accNum);
 		} else {
 			return true;

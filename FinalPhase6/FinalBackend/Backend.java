@@ -239,7 +239,7 @@ public class Backend {
 	 * @param accountName
 	 *            Account Name
 	 * @param balance
-	 *            money being transfered
+	 *            money being transfereds
 	 * @return
 	 */
 	public static int create(int accountNum, String accountName, float balance) {
@@ -247,14 +247,10 @@ public class Backend {
 		System.out.println(accountNum);
 		String results = valid.create(accounts, accountNum, balance);
 		resultsGlobal = results;
-		System.out.println("THE VALUE FOR RESULTSGOLAB IS:"+ resultsGlobal);
 		if (results.equals("Pass")) {
 			BankAccount account = new BankAccount(accountNum, accountName,
 					true, balance, 'N', 0);
 			accounts.put(accountNum, account);
-<<<<<<< HEAD
-			accountsList.add(account);
-=======
 		} else if(results.equals("Fail")) {
 			boolean checkExist = true;
 			int accountNew = accountsList.get(accountsList.size() - 1).getNumber();
@@ -270,7 +266,6 @@ public class Backend {
 			BankAccount account = new BankAccount(accountNew, accountName,
 					true, balance, 'N', 0);
 			accounts.put(accountNum, account);
->>>>>>> c07d15706e980a6b2626f21737566bad36980f50
 		}
 		// Makes a List from the Hashmap of accounts
 		accountsList = new ArrayList<BankAccount>(accounts.values());
@@ -293,10 +288,11 @@ public class Backend {
 	public static String accChange(int accountNum, String accountName,
 			String Type) {
 		System.out.println("delete");
-		String results = valid.verifyUser(accounts, accountNum, accountName,
+		String result = valid.verifyUser(accounts, accountNum, accountName,
 				Type);
-		resultsGlobal = results;
-		if (results.equals("Pass")) {
+		resultsGlobal = result;
+
+		if (result.equals("Pass")) {
 			if (Type.compareTo("delete") == 0) {
 				accounts.remove(accountNum);
 				return "delete";
@@ -431,10 +427,11 @@ public class Backend {
 			// Hold the second user of results
 			String line;
 			while (!(line = br.readLine())
-					.equals("00                                       ")
+					.equals("00                      00000 00000.00   ")
 					&& !(resultsGlobal.equals("Fatal"))) {
 				// TODO: Debugging info, remove
 				//System.out.println(line);
+
 				// Gets the transaction id number and converts it to an integer
 				String transactionString = line.substring(0, 2);
 				int transaction = Integer.parseInt(transactionString);
