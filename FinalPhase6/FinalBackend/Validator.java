@@ -45,6 +45,8 @@ public class Validator {
 	 *            The account number number of the user
 	 * @param command
 	 *            The command it came from
+	 * @param admin 
+	 *			  Checks if the user if logged in as admin
 	 * @return a string either pass, fail, or fatal to show results of
 	 *         validation
 	 */
@@ -89,6 +91,8 @@ public class Validator {
 	 *            The account number number of the user
 	 * @param command
 	 *            The command it came from
+	 * @param admin 
+	 *			  Checks if the user if logged in as admin
 	 * @return a string either pass, fail, or fatal to show results of
 	 *         validation
 	 */
@@ -132,6 +136,8 @@ public class Validator {
 	 *            The account number number of the user
 	 * @param mm
 	 *            The company the bill is being payed to.
+	 * @param admin 
+	 *			  Checks if the user if logged in as admin
 	 * @return a string either pass, fail, or fatal to show results of
 	 *         validation
 	 */
