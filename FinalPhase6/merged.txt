@@ -1,13 +1,17 @@
+10 Albert Fung          00000 00000.00 S 
+03 Albert Fung          00002 00050.00 TV
+00 Albert Fung          00000 00000.00   
 10                      00000 00000.00 A 
-05 Mitchell Smith       00001 00100.00   
+02 Stuart Calverley     00004 00020.00 F 
+02 Albert Fung          00002 00020.00 T 
+00                      00000 00000.00   
+10 Janahan Math         00000 00000.00 S 
+04 Janahan Math         00003 00100.00   
+00 Janahan Math         00000 00000.00   
+10                      00000 00000.00 A 
+07 Stuart Calverley     00004 00000.00   
 00                      00000 00000.00   
 10                      00000 00000.00 A 
-05 Albert Fung          00001 01000.00   
-00                      00000 00000.00   
-10                      00000 00000.00 A 
-05 Janahan Math         00001 05000.00   
-00                      00000 00000.00   
-10                      00000 00000.00 A 
-05 Stuart Calverley     00001 10000.00   
+06 Mitchell Smith       00001 00000.00   
 00                      00000 00000.00   
 00                                       

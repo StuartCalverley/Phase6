@@ -20,7 +20,7 @@ public class BankAccount implements Comparable<BankAccount> {
   
   // Prints basic information about the account to help with debugging
   public String toString() {
-    return "Name: " + this.name + "\nNumber:" + this.number + "\nBalance: " + this.balance + "\n\n\n";
+    return "Name:" + this.name + "\nNumber:" + this.number + "\nBalance:" + this.balance + "\n\n\n";
   }
   
   // Simply adds the amount to the current balance

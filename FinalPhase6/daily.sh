@@ -29,11 +29,12 @@ function backend() {
 	mergedFile=$(pwd)/merged.txt
 	cd FinalBackend/
 	java Backend $mergedFile
-
 }
 	transactions
 	cat $tfFiles*.txt >> merged.txt
 	echo "00                                       " >> merged.txt
 	backend
+	cd ..
+	cat Application/Accounts/MasterAccountFile.txt > MasterFiles/MastersFileDay$1.txt
 	#echo $testData/$1/ 
 

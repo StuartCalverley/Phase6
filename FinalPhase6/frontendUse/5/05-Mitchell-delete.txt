@@ -1,0 +1,6 @@
+login
+Admin
+delete
+Mitchell Smith
+1
+logout

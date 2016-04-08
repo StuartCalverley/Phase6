@@ -254,8 +254,8 @@ public class Backend {
 		} else if(results.equals("Fail")) {
 			boolean checkExist = true;
 			int accountNew = accountsList.get(accountsList.size() - 1).getNumber();
-			accountNew++;
 			while(checkExist){
+				accountNew++;
 				checkExist = false;
 				for(BankAccount i: accountsList){
 					if(i.getNumber() == accountNew){
@@ -265,7 +265,7 @@ public class Backend {
 			}
 			BankAccount account = new BankAccount(accountNew, accountName,
 					true, balance, 'N', 0);
-			accounts.put(accountNum, account);
+			accounts.put(accountNew, account);
 		}
 		// Makes a List from the Hashmap of accounts
 		accountsList = new ArrayList<BankAccount>(accounts.values());
@@ -288,6 +288,7 @@ public class Backend {
 	public static String accChange(int accountNum, String accountName,
 			String Type) {
 		System.out.println("delete");
+					System.out.println(accounts.get(4));
 		String result = valid.verifyUser(accounts, accountNum, accountName,
 				Type);
 		resultsGlobal = result;
@@ -386,6 +387,7 @@ public class Backend {
 				int accountNumber = Integer.parseInt(accountNumberString);
 
 				String accountName = line.substring(6, 26);
+				accountName = accountName.trim();
 
 				char statusChar = line.charAt(27);
 				boolean status = statusChar == 'A';
