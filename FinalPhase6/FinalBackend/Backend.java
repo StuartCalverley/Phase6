@@ -296,6 +296,11 @@ public class Backend {
 		if (result.equals("Pass")) {
 			if (Type.compareTo("delete") == 0) {
 				accounts.remove(accountNum);
+				for(int i = 0; i < accountsList.size(); i++) {
+					if(accountsList.get(i).getNumber() == accountNum){
+						accountsList.remove(i);
+					}
+				}
 				return "delete";
 			} else if (Type.compareTo("disable") == 0) {
 				accounts.get(accountNum).disable();

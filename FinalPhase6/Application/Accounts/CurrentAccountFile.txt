@@ -1,4 +1,3 @@
-00001 Mitchell Smith       A 00049.90 N
 00002 Albert Fung          A 01059.60 N
 00003 Janahan Math         A 05249.70 N
 00004 Stuart Calverley     D 11019.95 S
