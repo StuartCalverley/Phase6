@@ -3,5 +3,5 @@ Standard
 Albert Fung
 withdrawal
 2
-100.00
+1000.00
 logout
