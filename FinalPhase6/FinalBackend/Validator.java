@@ -191,11 +191,11 @@ public class Validator {
 	 */
 	public boolean nameExist(Map<Integer, BankAccount> accounts, String accName) {
 		String name;
-		System.out.println("IN THE NAMEEXIST method and name is:"+ accName + ".");
+		//System.out.println("IN THE NAMEEXIST method and name is:"+ accName + ".");
 		System.out.println(accounts.get(4));
 		for (int key : accounts.keySet()) {
 			name = accounts.get(key).getName();
-			System.out.println("name asdasda: " +  name + ".");
+			//System.out.println("name asdasda: " +  name + ".");
 			if (name.equals(accName)) {
 				return true;
 			}
@@ -261,8 +261,7 @@ public class Validator {
 	 */
 	public String verifyUser(Map<Integer, BankAccount> accounts, int accNum,
 			String accName, String command) {
-		System.out.println("In the verfiy User shit: "+accounts.get(4) );
-		System.out.println("THE NAME IS: "+ accName);
+		//System.out.println("THE NAME IS: "+ accName);
 		if (!(nameExist(accounts, accName))) {
 			System.out.println("ERROR: The account name " + accName
 					+ " is not found from command " + command);

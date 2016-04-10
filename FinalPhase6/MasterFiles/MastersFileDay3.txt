@@ -1,4 +1,4 @@
-00001 Mitchell Smith       D 00100.00 0001 N
+00001 Mitchell Smith       A 00100.00 0002 N
 00002 Albert Fung          A 01099.90 0001 N
 00003 Janahan Math         A 05049.90 0002 N
 00004 Stuart Calverley     A 11050.00 0002 S
