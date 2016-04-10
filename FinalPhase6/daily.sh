@@ -32,6 +32,8 @@ backend="FinalBackend/"
 g++ -std=c++11 $(pwd)/Application/main.cpp -o $(pwd)/Application/main.o
 cd FinalBackend/
 javac Backend.java
+javac BankAccount.java
+javac Validator.java
 cd ..
 
 # Runs the input file though the Banking program and stores the transaction files in a folder
